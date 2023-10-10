@@ -5,7 +5,7 @@ function MudaDesenho(){
 
     const msg = document.querySelector(".msg");
     
-    if(x <= 432 && y <= 468){
+    if(x <= 432 && y <= 468 && x > 0 && y > 0){
         msg.innerHTML = "Dentro";
     }
 
@@ -47,15 +47,15 @@ function MudaDesenho2(){
 
     //alert(`${abc}`);
 
-    if( abc == "100" || "011"){
+    if( abc == "100" || abc == "011"){
         msg2.innerHTML = "alice";
     }
 
-    else if( abc == "010" || "101"){
+    else if( abc == "010" || abc == "101"){
         msg2.innerHTML = "beto";
     }
 
-    else if( abc == "001" || "110"){
+    else if( abc == "001" || abc == "110"){
         msg2.innerHTML = "clara";
     }
 
